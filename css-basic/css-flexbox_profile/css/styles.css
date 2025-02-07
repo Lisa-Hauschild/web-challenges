@@ -19,7 +19,6 @@ body {
   margin: 0 auto;
   max-width: 1200px;
   text-align: center;
-  
 }
 
 h2 {
@@ -34,7 +33,6 @@ h2 {
 }
 
 .profile__image {
-  
   object-fit: cover;
   border-radius: 999px;
   aspect-ratio: 1 / 1;
@@ -46,7 +44,7 @@ h2 {
   display: flex;
   justify-content: center;
   gap: 10px;
-  justify-content: center;
+  flex-wrap: wrap;
   list-style: none;
   padding-left: 0;
 }
