@@ -19,6 +19,7 @@ body {
   margin: 0 auto;
   max-width: 1200px;
   text-align: center;
+  
 }
 
 h2 {
@@ -33,7 +34,7 @@ h2 {
 }
 
 .profile__image {
-  justify-content: space-evenly;
+  
   object-fit: cover;
   border-radius: 999px;
   aspect-ratio: 1 / 1;
@@ -43,6 +44,7 @@ h2 {
 
 .tech-stack__list {
   display: flex;
+  justify-content: center;
   gap: 10px;
   justify-content: center;
   list-style: none;
