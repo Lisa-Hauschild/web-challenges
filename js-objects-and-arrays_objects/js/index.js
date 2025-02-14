@@ -3,8 +3,10 @@ console.clear();
 // EXERCISE 1
 // Create an object `personWithNameAgeEmail` with the properties "name", "age" and "email".
 
-const personWithNameAgeEmail = {
-  example: "example",
+const user1 = {
+  name: "James",
+  age: 15,
+  e_mail: "thismail@that.com",
 };
 
 // EXERCISE 2
@@ -15,15 +17,15 @@ const personAlex = {
   age: 24,
 };
 
-const nameOfAlex = "Change me";
-const ageOfAlex = "Change me";
+const nameOfAlex = "Alex";
+const ageOfAlex = "24";
 
 // EXERCISE 3
 // Change the `name` to "Alex" and `age` to "35" by updating the `personToChange`object: `person.existingProperty = newValue`.
 
 const personToChange = {
-  name: "Kim",
-  age: 24,
+  name: "Alex",
+  age: 35,
 };
 
 // EXERCISE 4
@@ -32,12 +34,15 @@ const personToChange = {
 const petPluto = {
   name: "Pluto",
   species: "dog",
+  age: 5,
+  breed: "husky",
 };
 
-export {
-  personWithNameAgeEmail,
-  nameOfAlex,
-  ageOfAlex,
-  personToChange,
-  petPluto,
-};
+//export {
+//};
+
+console.log(user1);
+console.log(personAlex.name);
+console.log(personAlex.age);
+console.log(personToChange);
+console.log(petPluto);
