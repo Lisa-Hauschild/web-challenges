@@ -1,0 +1,14 @@
+
+footer {
+  position: fixed;
+  bottom: 0;
+  color: var(--main-text);
+  background: var(--main-title-bg);
+  padding: 20px;
+  --main-text: #ff4a11;
+  --main-title-bg: #3f0097;
+  inline-size:100%;
+  text-align: center;
+  margin:auto;
+}
+

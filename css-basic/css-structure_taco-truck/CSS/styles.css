@@ -2,12 +2,13 @@
 @import "./header.css";
 @import "./main.css";
 @import "./card.css";
+@import "./footer.css";
 
 /* -------------------------------------------------------- */
 /* Global Styles */
 /* -------------------------------------------------------- */
 
-*::before,
+* ::before,
 *::after {
   box-sizing: border-box;
 }
@@ -20,3 +21,5 @@ body {
   font-family: system-ui, sans-serif;
   background: var(--body-bg);
 }
+
+
