@@ -1,5 +1,6 @@
 console.clear();
 
+
 // The exercise starts here!
 
 // For reference, check out all console methods on MDN: https://developer.mozilla.org/en-US/docs/Web/API/console
@@ -26,7 +27,10 @@ console.clear();
 
 // 6. Store the text 'This is an error!' in a variable 'error'.
 
-const error = "This is an error!";
+error = "This is an error!";
 // 7. Which method is used to display an error message in the console? Use it do display the error message in the console.
 
+console.log(error);
+const anotherError = "XXX is not defined";
+console.log(anotherError);
 // Well done!
