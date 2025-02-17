@@ -17,15 +17,16 @@
 
     <form for="title">
       <fieldset>
-        <legend>Enter your information</legend>
+        <legend aria-describedby="Please enter your information">Enter your information</legend>
         <label for="name-Input">Name:</label>
-        <input id="name-Input" type="text" />
+        <input aria-label="Tell us your name" required id="name-Input" type="text" />
         <label for="age-Input">Age:</label>
-        <input id="age-Input" type="text" />
+        <input aria-label="Tell us your age"required ="age-Input" type="text" />
         <label for="color-Input">Color you cannot see:</label>
-        <input id="color-Input" type="color" />
-        <textarea rows="7" placeholder="Leave us a message..."></textarea>
-        <button type="submit">Submit</button>
+        <input aria-label="Pick a color"required value="#F5199A" id="color-Input" type="color" />
+        <label for="message">Leave us a message:</label>
+        <textarea id="message" rows="7"></textarea>
+        <button aria-label="Submit form"type="submit">Submit</button>
       </fieldset>
     </form>
   </body>
