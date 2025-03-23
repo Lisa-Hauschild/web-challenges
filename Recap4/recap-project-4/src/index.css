@@ -15,16 +15,22 @@ h2 {
   font-size: 1.25rem;
 }
 
+.color-container {
+  display: flex;  /* Makes the items line up next to each other */
+  
+  gap: 2px; /* Adds space between colors */
+}
+
 .Cardbackground4oneColor {
   display:flex;
   justify-content: flex-start;
-  border-radius: 5px;
+  border-radius: 15px;
  
   display: inline-block;
   padding:0.5rem;
   font-size: 1.25rem;
  border:solid 2px rgb(9, 8, 8);
- width: 400px;
+ width: 250px;
  height: 100px;
  margin: 0.5rem; 
 
@@ -37,9 +43,10 @@ h2 {
   background-color: #bab9c1;
   display: inline-block;
   padding:1rem;
-  border-radius: 5px;
+  border-radius: 15px;
   max-width: 50%;
   height: 80px;
+  text-align: start;
 }
 
 .Cardbc {
@@ -49,15 +56,17 @@ h2 {
   padding:2rem;
   border-radius: 5px;
   margin:2rem;
+  text-align: left;
   
 
 }
 
 .textbg {
 
+  display: flex;
+  justify-content: center;
   background-color: #6cc4c4;
   border-radius: 5px;
-  display: inline-block;
   padding:0.25rem;
   margin:1rem;
  

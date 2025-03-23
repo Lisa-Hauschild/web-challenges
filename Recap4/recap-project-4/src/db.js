@@ -77,4 +77,34 @@ export const themes = [
         },
       ],
     },
+    {
+      id: "3",
+      name: "Theme: Universe<",
+      colors: [
+        {
+          role: "primary",
+          value: "#594A54",
+          name: "SaturnBlue",
+        },
+        {
+          role: "secondary",
+          value: "#97878C",
+          name: "Neptunepurple",
+        },
+        {
+          role: "surface",
+          value: "#1E1F20",
+          name: "Startwinkle",
+        },
+        {
+          role: "surface-on",
+          value: "#fff",
+          name: "Void",
+        },
+      ],
+    },
   ];
+
+
+  
+

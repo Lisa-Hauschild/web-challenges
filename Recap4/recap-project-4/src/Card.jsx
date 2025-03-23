@@ -5,13 +5,13 @@ export default function Card({ name = "DefaultName", role = "DefaultRole", hex =
       <>
 
 
-    <span className= "Cardbackground4oneColor" style={{ backgroundColor: hex}}>
-    <span className="textbackgroundforoneColor ">
-        <p>Colorname: {name}</p>
-        <p>Hexvalue: {hex}</p>
-        <p>Role: {role}</p>
-        </span>
-        </span>
+    <div className= "Cardbackground4oneColor" style={{ backgroundColor: hex}}>
+    <div className="textbackgroundforoneColor ">
+        <p> {name}</p>
+        <p> {hex}</p>
+        <p> {role}</p>
+        </div>
+        </div>
     
       </>
     );

@@ -1,0 +1,13 @@
+.PreviewColor {
+   
+    background-color: rgb(77, 16, 134);
+    width: 60px;
+    height:60px;
+    border-radius: 10px;
+    margin:5px;
+}
+
+.hidden {
+
+    display: none;
+}
